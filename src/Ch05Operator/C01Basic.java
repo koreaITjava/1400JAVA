@@ -89,10 +89,10 @@ public class C01Basic {
 		//두 수를 입력받아 큰 수를 출력하세요
 		Scanner sc = new Scanner(System.in);
 		System.out.print("첫번째 수 입력 : ");
-		int score1 = sc.nextInt();
+		int n1 = sc.nextInt();
 		System.out.print("두번째 수 입력 : ");
-		int score2 = sc.nextInt();
-		int max = (score1 > score2)? score1:score2;
+		int n2 = sc.nextInt();
+		int max = (n1 > n2)? n1:n2;
 		System.out.println("큰 수 : "+max);
 		sc.close();
 	}
