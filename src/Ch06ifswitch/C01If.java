@@ -1,4 +1,4 @@
-package Ch006ifswithch;
+package Ch06ifswitch;
 
 import java.util.Scanner;
 
@@ -139,17 +139,17 @@ public class C01If {
 		//수학이 40점 이하냐?	->불합격
 		//평균이 60점 미만이냐?	->불합격
 		//아니라면 -> 합격
-		Scanner sc = new Scanner(System.in);
-		System.out.println("국어 점수를 입력하세요 : ");
-		int num1 = sc.nextInt();
-		
-		System.out.println("영어 점수를 입력하세요 : ");
-		int num2 = sc.nextInt();
-		
-		System.out.println("수학 점수를 입력하세요 : ");
-		int num3 = sc.nextInt();
-		
-		double avg=(double)(num1+num2+num3)/3;
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("국어 점수를 입력하세요 : ");
+//		int num1 = sc.nextInt();
+//		
+//		System.out.println("영어 점수를 입력하세요 : ");
+//		int num2 = sc.nextInt();
+//		
+//		System.out.println("수학 점수를 입력하세요 : ");
+//		int num3 = sc.nextInt();
+//		
+//		double avg=(double)(num1+num2+num3)/3;
 		//1번 방법
 //		if(num1>=40 && num2>=40 && num3>=40) {
 //			if(avg>=60) {
@@ -187,46 +187,60 @@ public class C01If {
 		//70점 이상이면 'C'출력
 		//60점 이상이면 'D'출력
 		//60점 미만이면 'F'출력
-		
+//		
 //		Scanner sc = new Scanner(System.in);
-//		System.out.println("평균을 입력하세요 : ");
+//		System.out.print("평균을 입력하세요 : ");
 //		int avg = sc.nextInt();
-		
+//		if(avg>=90) {
+//			System.out.println('A');
+//		}
+//		else if(avg>=80) {
+//			System.out.println('B');
+//		}
+//		else if(avg>=70) {
+//			System.out.println('C');
+//		}
+//		else if(avg>=60) {
+//			System.out.println('D');
+//		}
+//		else {
+//			System.out.println('F');
+//		}
 		
 		
 		
 		
 		//문제(강사와 같이 합니다.)
 		//세 정수를 입력받아서 큰 수를 출력하세요(단순 IF문으로만)
-//		Scanner sc = new Scanner(System.in);
-//		System.out.println("첫번째 정수를 입력하세요 : ");
-//		int num1 = sc.nextInt();
-//		
-//		System.out.println("두번째 정수를 입력하세요 : ");
-//		int num2 = sc.nextInt();
-//		
-//		System.out.println("세번째 정수를 입력하세요 : ");
-//		int num3 = sc.nextInt();
-//		
-//		if(num1>num2) 
-//		{
-//			if(num1>num3) {
-//				System.out.println("큰 수 : "+num1);
-//			}
-//			else {
-//				System.out.println("큰 수 : "+num3);
-//			}
-//		}
-//		else if(num2>num1)
-//		{
-//			if(num2>num3) {
-//				System.out.println("큰 수 : "+num2);
-//			}
-//			else {
-//				System.out.println("큰 수 : "+num3);
-//			}
-//		}
-
+		Scanner sc = new Scanner(System.in);
+		System.out.print("첫번째 정수를 입력하세요 : ");
+		int num1 = sc.nextInt();
+		
+		System.out.print("두번째 정수를 입력하세요 : ");
+		int num2 = sc.nextInt();
+		
+		System.out.print("세번째 정수를 입력하세요 : ");
+		int num3 = sc.nextInt();
+		
+		if(num1>num2) 
+		{
+			if(num1>num3) {
+				System.out.println("큰 수 : "+num1);
+			}
+			else {
+				System.out.println("큰 수 : "+num3);
+			}
+		}
+		else if(num2>num1)
+		{
+			if(num2>num3) {
+				System.out.println("큰 수 : "+num2);
+			}
+			else {
+				System.out.println("큰 수 : "+num3);
+			}
+		}
+		
 	}
 
 }
