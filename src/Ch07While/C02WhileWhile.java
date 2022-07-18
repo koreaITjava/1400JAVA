@@ -67,16 +67,16 @@ public class C02WhileWhile {
 		//*****
 		//*****
 		
-		int i = 0, j;
-		while(i<4) {
-			j=0;
-			while(j<5) {
-				System.out.print("*");
-				j++;
-			}
-			System.out.println();
-			i++;
-		}
+//		int i = 0, j;
+//		while(i<4) {
+//			j=0;
+//			while(j<5) {
+//				System.out.print("*");
+//				j++;
+//			}
+//			System.out.println();
+//			i++;
+//		}
 		
 		//*
 		//**
@@ -114,6 +114,115 @@ public class C02WhileWhile {
 		//  ***
 		// *****
 		//*******
+		
+//		int i = 1, j, k;
+//		while(i<5) {
+//			j=0;
+//			k=0;
+//			while(j<4-i) {
+//				System.out.print(" ");
+//				j++;
+//			}
+//			while(k<2*i-1) {
+//				System.out.print("*");
+//				k++;
+//			}
+//			System.out.println();
+//			i++;
+//		}
+		
+		//*******
+		// *****
+		//  ***
+		//   *
+		
+//		int i = 1, j, k;
+//		while(i<5) {
+//			j=0;
+//			k=0;
+//			while(j<i-1) {
+//				System.out.print(" ");
+//				j++;
+//			}
+//			while(k<-2*i+9) {
+//				System.out.print("*");
+//				k++;
+//			}
+//			System.out.println();
+//			i++;
+//		}
+			
+		//   *
+		//  ***
+		// *****
+		//*******
+		// *****
+		//  ***
+		//   *
+		
+//		int i = 1, j, k;
+//		while(i<5) {
+//			j=0;
+//			k=0;
+//			while(j<5-i) {
+//				System.out.print(" ");
+//				j++;
+//			}
+//			while(k<2*i-1) {
+//				System.out.print("*");
+//				k++;
+//			}
+//			System.out.println();
+//			i++;
+//		}
+//		i=1;
+//		while(i<4) {
+//			j=0;
+//			k=0;
+//			while(j<=i) {
+//				System.out.print(" ");
+//				j++;
+//			}
+//			while(k<-2*i+7) {
+//				System.out.print("*");
+//				k++;
+//			}
+//			System.out.println();
+//			i++;
+//		}
+		
+		//모래시계
+		int i = 1, j, k;
+		while(i<5) {
+			j=0;
+			k=0;
+			while(j<i) {
+				System.out.print(" ");
+				j++;
+			}
+			while(k<-2*i+9) {
+				System.out.print("*");
+				k++;
+			}
+			System.out.println();
+			i++;
+		}
+		
+		i=1;
+		while(i<5) {
+			j=0;
+			k=0;
+			while(j<5-i) {
+				System.out.print(" ");
+				j++;
+			}
+			while(k<2*i-1) {
+				System.out.print("*");
+				k++;
+			}
+			System.out.println();
+			i++;
+		}
 		
 	}
 
