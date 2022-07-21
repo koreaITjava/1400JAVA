@@ -6,7 +6,6 @@ class Rectangle{
 	int width;
 	int height;
 	
-	Rectangle(){}
 	Rectangle(int x, int y, int width, int height){
 		this.x= x;
 		this.y=y;
@@ -19,12 +18,15 @@ class Rectangle{
 	}
 	
 	int square() {
-		return (width*height);
+		return (width * height);
 	}
 	
 	boolean contains(Rectangle r) {
-		
-	}
+	      if(x < r.x && y < r.y)
+	         if((width+x) > (r.x+r.width) && (height+y) > (r.y+r.height))
+	            return true;
+	      return false;
+	   }
 	
 }
 //다음 멤버를 가지고 직사각형을 표현하는 Rectangle 클래스를 작성하라.
@@ -49,7 +51,7 @@ public class C15Prac {
 		}
 		
 	}
-}
+
 //[출력예]
 //(2,2)에서 크기가 8x7인 사각형
 //s의 면적은 36
